@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import InfoTable from './InfoTable.js';
+import Counter from './components/Counter.js';
+import Gallery from './components/Gallery.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Gallery />
   </React.StrictMode>
 );
 

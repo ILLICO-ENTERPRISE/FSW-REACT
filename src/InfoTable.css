@@ -1,0 +1,10 @@
+.p {
+  text-align: start;
+}
+
+.Span {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin-right: 5px;
+}
